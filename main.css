@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    align-items: center;
+}
+.logo{
+    flex-basis: 30%;
+    text-align: center;
+    
+
+    
+}
+.menu{
+    flex-basis: 70%;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 22px;
+    color: cornsilk;
+    
+}
+.menu ul li a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.7s;
+}
+.menu ul li a:hover{
+    background-color: #ffff;
+    color: blue;
+   border-radius: 15px;
+
+}
+.container{
+    margin:auto;
+    width: 80%;
+}
+.cover{
+    background-image: url("img/0.1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cover input[type="text"]{
+    width: 50%;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 30px;
+
+}
+.cover input[type="button"]{
+    width: 10%;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: blue;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 30px;
+    
+
+}
+.car-view{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.item img{
+    width: 80%;
+   
+}
+.footer{
+    background-color: blue;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+.productDetails-main{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.productImage{
+    flex-basis: 50%;
+
+}
+
+.productImage img{
+    width: 80%;
+}
+
+
+.productDetails{
+    flex-basis: 50%;
+
+}
+.productDetails input[type="button"] {
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.7s;
+}
+
+.productDetails input[type="button"]:hover {
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+    
+}
+.productDetails-other{
+    margin-top: 10px;
+    text-align: justify;
+}
+.gap{
+    clear:both;
+    margin-top: 10px;
+
+}
+.login-main{
+    margin: auto;
+    margin-top: 25px;
+    
+    width: 450px;
+    border: 2px solid blue;
+    padding: 10px;
+}
+.login-main h1{
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+}
+.form-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.form-row label{
+    font-size: 25px;
+    
+}
+.form-row input[type="text"]{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px;
+}
+.form-row input[type="password"]{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px;
+}
+.form-row input[type="submit"]{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-row input[type="reset"]{
+    background-color: blue;
+    color: #fff;
+   
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.text-centre{
+    text-align: center;
+}
+.button-hover {
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.form-element {
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 3px;
+}
+.signup-main {
+    flex-basis: 60%;
+    margin-top: 10px;
+}
+.signup-main h1 {
+
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+}
+.signup-wrapper{
+    display: flex;
+    /* justify-content: center; */
+}
+.signup-image{
+    flex-basis: 30%;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+.car-image{
+    border: 1px solid #000;
+    height: 250px;
+    width: 200px;
+
+}
+.Selling-heading h1 {
+    text-align: center;
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.contactUsWrapper{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.contactUsMap{
+    flex-basis: 60%;
+
+
+}
+.contactUsAddress{
+    flex-basis: 40%;
+    text-align: right;
+}
+.contactUsForm{
+    width: 50%;
+    margin-top: 10px;
+}
+.admin-wrapper{
+    display: flex;
+
+}
+.admin-sidebar{
+    flex-basis: 20%;
+    background-color: blue;
+    height: 100vh;
+    
+
+}
+.admin-sidebar ul{
+    list-style: none;
+
+}
+.admin-sidebar ul li{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+    color: #fff;
+}
+.admin-sidebar ul li a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+}
+.admin-sidebar ul li a:hover{
+    background-color: #fff;
+    color: blue;
+
+}
+.admin-mainContent{
+    flex-basis: 80%;
+    padding-top: 10px;
+    background-color: lightyellow;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.admin-mainContent h1{
+    text-align: center;
+    color: blue;
+
+}
+.admin-form{
+    width: 50%;
+
+}
+.admin-table{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.admin-table table {
+   
+    width: 100%;
+    font-size: 20px;
+   text-align: center;
+
+}
+.admin-table table th {
+    background-color: blue;
+    color: #fff;
+    
+}
+
+
